@@ -44,6 +44,7 @@ Python 3.5 + tensorflow 1.12.0
 
 ## Model
 
+[Download](https://drive.google.com/drive/folders/1kfX0DMxtegLTzrVR2qNWvxrf5_fpMydW?usp=sharing)
 In the folder `model`, there are two trained models including English and Chinese dependency parsing models.
 
 ## Functions
