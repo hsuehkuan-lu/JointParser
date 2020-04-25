@@ -28,7 +28,7 @@ In this work, we use [Universal Dependencies](https://universaldependencies.org/
 
 In the experiment of UD 1.2, we compare our method with other three joint learning models, and our method outperforms all other methods. The results are reported in the following table, the scores are evaluated in LAS metric:
 
-<img src="https://github.com/hsuehkuan-lu/JointParser/blob/master/experiment.png" width="450">
+<img src="https://github.com/hsuehkuan-lu/JointParser/blob/master/experiment.png" width="800">
 
 ---
 
