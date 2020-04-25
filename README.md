@@ -16,7 +16,7 @@ Currently, POS taggers are not perfect yet, and the taggers may be irrelevant to
 
 The overall framework is shown in the figure. In this figure, the model is divided into three parts. First, we combine three different lexical information (character, word, and N-gram) to generate every word vector representations. Then, because our dependency parsing model is based on POS tagging results, in this stage we train POS tagging model as an intermediate helper, so as to dig in more lingustic information from the texts. Last, the input of dependency parsing is the concat of POS tagging results and sentence representations used in POS tagging.
 
-![framework](https://github.com/hsuehkuan-lu/JointParser/blob/master/framework.pdf)
+![framework](https://github.com/hsuehkuan-lu/JointParser/blob/master/framework.png)
 
 Our method uses Bidirectional Long Short-Term Memory neural networks on both POS tagging and dependency parsing tasks. And we use transition-based dependency parsing algorithm to generate parses.
 
